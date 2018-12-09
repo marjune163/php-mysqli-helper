@@ -1,7 +1,7 @@
-#`DataConditionHelper` class
+# `DataConditionHelper` class
 For generating sql Where statement.
 
-##Single value condition
+## Single value condition
 `addConditionGreaterThan` method adds a "field > value" condition.  
 `addConditionGreaterThanEqual` method adds a "field >= value" condition.  
 `addConditionLessThan` method adds a "field < value" condition.  
@@ -19,7 +19,7 @@ parameters:
 `$field` the field name of the table  
 `$value` the condition value of the field
 
-##Multi value condition
+## Multi value condition
 `addConditionInKeywords` method adds a "field IN (value, ...)" condition.  
 `addConditionInStrings` method adds a "field IN ('value', ...)" condition.  
 

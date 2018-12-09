@@ -1,7 +1,7 @@
-#`DataDeleteHelper` class
+# `DataDeleteHelper` class
 For generating sql Delete statement.
 
-##`execute` method
+## `execute` method
 Perform the delete sql statement immediately.
 
 signature:  

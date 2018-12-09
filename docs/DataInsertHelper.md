@@ -1,7 +1,7 @@
-#`DataInsertHelper` class
+# `DataInsertHelper` class
 For generating sql Insert statement.
 
-##`addString` method
+## `addString` method
 Add a string value to insert.
 
 signature:  
@@ -11,7 +11,7 @@ parameters:
 `$field` the field name of the table  
 `$value` the value that will be inserted to the `$field` field in table
 
-##`addKeyword` method
+## `addKeyword` method
 Add a keyword value(which means only contains normal characters) to insert.
 
 signature:  
@@ -21,7 +21,7 @@ parameters:
 `$field` the field name of the table  
 `$value` the value that will be inserted to the `$field` field in table
 
-##`addInteger` method
+## `addInteger` method
 Add an integer value to insert.
 
 signature:  
@@ -31,7 +31,7 @@ parameters:
 `$field` the field name of the table  
 `$value` the value that will be inserted to the `$field` field in table
 
-##`addFloat` method
+## `addFloat` method
 Add a float value to insert.
 
 signature:  
@@ -41,7 +41,7 @@ parameters:
 `$field` the field name of the table  
 `$value` the value that will be inserted to the `$field` field in table
 
-##`addValues` method
+## `addValues` method
 Add a lot of values to insert at once. For each value, if it is a string, call `addString` internally; if it is a float value, call `addFloat` internally; if it is an integer value, call `addInteger` internally; otherwise call `addKeyword` internally.
 
 signature:  
@@ -50,7 +50,7 @@ function addValues($arrValues)
 parameters:  
 `$arrValues` an associated array which it's key is field name and it's value is the value to be inserted.
 
-##`execute` method
+## `execute` method
 Perform the insert sql statement immediately.
 
 signature:  
